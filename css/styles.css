@@ -41,16 +41,22 @@ nav h1 a {
 }
 
 nav ul {
-    margin: 0;
-    padding: 5px 14px;
+    margin: 48px 0 0 0;
+    padding: 5px 12px;
     position: absolute;
     left: 50%;
-    top: 38%;
+    top: 30%;
     transform: translateX(-50%);
     list-style: none;
     display: flex;
+    justify-content: center;
     background: #FFF;
     border-radius: 14px;
+    min-width: 280px;
+}
+
+nav ul li {
+    margin: 0 12px;
 }
 
 nav ul a {
@@ -61,5 +67,6 @@ nav ul a {
 main {
     margin: 0 auto 0 auto;
     width: 800px;
+    max-width: 100%;
     padding-top: 30%;
 }
