@@ -1,0 +1,14 @@
+{
+    "extends": "airbnb-base",
+    "globals": {
+        "document": true,
+        "window": true,
+        "Element": true,
+        "HTMLElement": true,
+        "fetch": true,
+        "DOMParser": true
+    },
+    "rules": {
+        "indent": ["error", 4]
+    }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "frannyfranny",
+  "version": "1.0.0",
+  "description": "",
+  "browser": "scripts.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build  -- ./js/nav.js",
+    "watch": "parcel watch  -- ./js/nav.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/auniverseaway/frannyfranny.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/auniverseaway/frannyfranny/issues"
+  },
+  "homepage": "https://github.com/auniverseaway/frannyfranny#readme",
+  "devDependencies": {
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "parcel": "nightly"
+  }
+}
