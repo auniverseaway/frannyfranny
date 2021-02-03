@@ -70,3 +70,7 @@ main {
     max-width: 100%;
     padding-top: 30%;
 }
+
+main div:first-of-type p:first-of-type {
+    text-align: center;
+}
