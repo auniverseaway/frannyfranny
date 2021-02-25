@@ -1,13 +1,14 @@
 {
     "script": "/js/toolbar.js",
+    "styles": "/css/toolbar.css",
     "actions": [
         {
             "label": "Change header",
-            "function": "window.frannyfranny.toolbar.changeHeader"
+            "function": "frannyfranny.toolbar.changeHeader"
         },
         {
             "label": "Preview share",
-            "function": "window.frannyfranny.toolbar.previewShare"
+            "function": "frannyfranny.toolbar.previewShare"
         }
     ]
 }

@@ -5,7 +5,7 @@
   "browser": "scripts.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "parcel build  -- ./js/nav.js",
+    "build": "parcel build  --no-source-maps ./js/nav.js",
     "watch": "parcel watch  -- ./js/nav.js"
   },
   "repository": {
