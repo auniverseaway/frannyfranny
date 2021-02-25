@@ -8,7 +8,11 @@ window.hlxhlp.toolbar = {
     actions: [
         {
             label: 'Change header',
-            action: changeHeader,
+            func: changeHeader,
+        },
+        {
+            label: 'Preview card',
+            func: changeHeader,
         },
     ],
 };
